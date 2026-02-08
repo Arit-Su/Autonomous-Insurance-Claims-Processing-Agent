@@ -29,7 +29,7 @@ The system follows a three-stage pipeline to ensure reliability and speed:
 1.  **Clone the repo**:
     ```bash
     git clone https://github.com/Arit-Su/Autonomous-Insurance-Claims-Processing-Agent.git
-    cd fnol-agent
+    cd Autonomous-Insurance-Claims-Processing-Agent
     ```
 
 2.  **Build and Run**:
