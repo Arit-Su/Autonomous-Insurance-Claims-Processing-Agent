@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+fnol:
+  rules:
+    auto-approval-threshold: 25000.0
+    investigation-keywords:
+      - "fraud"
+      - "inconsistent"
+      - "staged"
+      - "suspicious"
+  upload:
+    max-file-size: 10MB
