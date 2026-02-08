@@ -19,7 +19,7 @@ The system follows a three-stage pipeline to ensure reliability and speed:
 
 ## Prerequisites
 
-*   **Java 21** (Required)
+*   **Java 21**
 *   **Maven 3.8+**
 
 ---
