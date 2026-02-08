@@ -19,7 +19,7 @@ The system follows a three-stage pipeline to ensure reliability and speed:
 
 ## Prerequisites
 
-*   **Java 21** (Required)
+*   **Java 21**
 *   **Maven 3.8+**
 
 ---
@@ -50,12 +50,14 @@ The easiest way to test is via the built-in **Swagger UI**:
 2.  Expand the **POST `/api/v1/claims/process`** section.
 3.  Click **"Try it out"**.
 4.  Upload an FNOL PDF (or a text-based PDF containing policy and damage info).
-5.  Click **"Execute"** to see the routing decision and extracted JSON.
+5.  Added all 4 sample scenario files in this repo. 
+6.  Click **"Execute"** to see the routing decision and extracted JSON.
 
 ### Example Rules
 *   **Under $25k**: Routes to `Fast-track`.
 *   **Missing Policy #**: Routes to `Manual Review`.
 *   **Contains "suspicious"**: Routes to `Investigation Flag`.
+*   **Contains "injury"**: Routes to `Specialist Queue`.
 
 ---
 
